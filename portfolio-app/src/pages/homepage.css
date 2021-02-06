@@ -1,0 +1,67 @@
+#jumbo {
+    background-image: url("../utils/images/pic.png");
+    background-size: cover;
+    z-index: -10;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper {
+    margin: 0;
+    position: relative;
+    bottom: -30px;
+    float: none;
+    /* min-height:100vh; */
+}
+.learnWrapper {
+    position: absolute;
+    bottom: 0;
+}
+
+.welcomeRow {
+    display: flex;
+    align-items: center;
+}
+
+.learnCol {
+    position: absolute;
+    bottom: 2.5rem;
+}
+
+.welcomeCol {
+    margin-left: 10%;
+}
+
+.welcomeText {
+    text-align: left;
+    color: white;
+    font-family: "Courier New";
+    text-shadow: 2px 2px 15px #030303;
+}
+
+.learnText {
+    color: white;
+    text-shadow: 2px 2px 15px #030303;
+    font-family:'Courier New';
+    font-size: 1.25rem;
+}
+
+.arrow {
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .welcomeText {
+        font-size: 1.5rem
+    }
+    .welcomeCol {
+        margin: 0px;
+    }
+    .wrapper {
+        bottom: 0px;
+    }
+    .learnText {
+        font-size: 12px;
+    }
+}
