@@ -33,7 +33,7 @@ class Homepage extends Component {
             <Row className="learnRow">
               <Col className="learnCol">
               <h4 onClick={() => this.props.fxn(1)} className="learnText">Learn more about me</h4>
-              <FontAwesomeIcon className="arrow fa-2x" icon={faAngleDown}/>
+              <FontAwesomeIcon onClick={() => this.props.fxn(1)} className="arrow fa-2x" icon={faAngleDown}/>
               </Col>
             </Row>
             </Container>

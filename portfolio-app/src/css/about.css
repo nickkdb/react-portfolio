@@ -1,0 +1,86 @@
+.aboutWrapper {
+    margin-bottom: 50px;
+}
+
+.aboutJumbo {
+    height: 67%;
+}
+
+.hrow {
+    width: 100%;
+}
+
+.who {
+text-align: left;
+position: relative;
+top: 22%;
+left: 9%;
+font-size: 45px;
+}
+
+#headshot {
+    border-radius: 50%;
+    position: relative;
+    left: 25%;
+    bottom: 96px;
+}
+
+.jumboText {
+    position: relative;
+    bottom: 32%;
+}
+
+.jumboRow {
+    height: 400px;
+}
+
+
+.textrow {
+    padding: 0px 7rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    bottom: 4.5rem;
+}
+
+.statement {
+    line-height: 32px;
+}
+
+.skillsRow {
+    margin-top: 12.5rem;
+}
+
+.sectionHeading {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 34px;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+li::before {
+    content: "\2022";
+    color: blue;
+    display: inline-block;
+    width: 2.5rem;
+    margin-left: -1rem;
+}
+
+li {
+    text-align: left;
+    font-size: larger;
+}
+
+hr {
+    height: 1px;
+}
+
+.con {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

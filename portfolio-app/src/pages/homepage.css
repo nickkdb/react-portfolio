@@ -49,6 +49,7 @@
 
 .arrow {
     color: white;
+    cursor: pointer;
 }
 
 @media (max-width: 480px) {

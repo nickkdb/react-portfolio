@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import React, { Component } from 'react';
+import {Container} from 'react-bootstrap';
 import './App.css';
 import Homepage from './pages/homepage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/pages/homepage.css';
 import About from './components/about';
 import Header from "./components/header";
+import Projects from './components/projects';
 
 class App extends Component {
 
@@ -35,7 +37,11 @@ class App extends Component {
       <div className="App">
       <Header fxn={this.handleClick}/>
       <Homepage fxn={this.handleClick}/>
+      <Container fluid>
       <About rf={this.about}/>
+      <Projects rf={this.projects}/>
+      </Container>
+
       </div>
     );
   }
