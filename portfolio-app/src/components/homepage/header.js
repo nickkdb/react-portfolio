@@ -28,7 +28,7 @@ constructor(props) {
             <Nav className="mr-auto">
               <Nav.Link style={style} onClick={() => this.props.fxn(1)}>About</Nav.Link>
               <Nav.Link style={style} onClick={() => this.props.fxn(2)}>Projects</Nav.Link>
-              <Nav.Link style={style}>Contact</Nav.Link>
+              <Nav.Link style={style} onClick={() => this.props.fxn(3)}>Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

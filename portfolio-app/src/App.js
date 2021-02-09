@@ -10,6 +10,7 @@ import './css/defaults.css';
 import About from './pages/about';
 import Header from "./components/homepage/header";
 import Projects from './pages/projects';
+import Contact from './pages/contact';
 
 class App extends Component {
 
@@ -42,6 +43,7 @@ class App extends Component {
       <Container fluid>
       <About rf={this.about}/>
       <Projects rf={this.projects}/>
+      <Contact rf={this.contact}/>
       </Container>
 
       </div>
