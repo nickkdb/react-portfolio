@@ -4,7 +4,7 @@ import {Container} from 'react-bootstrap';
 import './App.css';
 import Homepage from './pages/homepage';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../src/pages/homepage.css';
+import './css/homepage.css';
 import About from './components/about';
 import Header from "./components/header";
 import Projects from './components/projects';

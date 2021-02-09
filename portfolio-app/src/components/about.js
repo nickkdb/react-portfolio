@@ -10,14 +10,14 @@ class About extends Component {
           <Container className="aboutWrapper" fluid>
               <Row>
                 <Col md={{span: 6, offset: 3}}>
-                <h1 ref={this.props.rf}>About</h1>
+                <h1 id="aboutHead" ref={this.props.rf}>About Me</h1>
                 </Col>
               </Row>
 
                 <Row className= "jumboRow">
                   <Col md={1}/>
                   <Col style={{marginTop: "4rem"}} md={5}>
-                  <Jumbotron className="aboutJumbo">
+                  <Jumbotron style={{borderRadius: "1.5rem"}} className="aboutJumbo">
                     <h1 className= "who">Who am I?</h1>
                     <img id= "headshot" src={headshot} alt="avatar" width={"250"} height={"250"} />
                       <p className="jumboText">
@@ -25,9 +25,17 @@ class About extends Component {
                        </p>
                 </Jumbotron>
                   </Col>
-                  <Col md={6} style={{display: "flex"}}>
-                  <Row className="textrow row align-self-end">
-                    <p className="statement"> 
+                  <Col md={6} style={{marginTop: "4rem"}}>
+                  <Row className="mystoryrow">
+                    <Col md={{span: 8, offset: 2}}>
+                    <h4 className="sectionHeading">
+                      My Story
+                    </h4>
+                    <hr color={"blue"}/>
+                    </Col>
+                  </Row>
+                  <Row className="textrow">
+                  <p className="statement"> 
                       Since a young age, I’ve loved using logic and creativity to solve problems. 
                       It started with fixing classmates’ mechanical pencils for a quarter in first grade and has led me all the way to programming. 
                       
@@ -43,21 +51,21 @@ class About extends Component {
                 </Row>
                 <Row className="skillsRow">
                   <Col md={1} />
-                  <Col md={5}>
+                  <Col md={5} style={{position: "relative", top: "2rem"}}>
                     <h4 className="sectionHeading">
                       When I'm not coding, I enjoy 
                     </h4>
                     <hr color={"blue"}/>
                     <Row>
                       <Col md={1} />
-                      <Col md={5} className="con">
+                      <Col md={5} className="list">
                       <ul>
                       <li>Hiking</li>
                       <li>Snowboarding</li>
                       <li>Chess</li>
                     </ul>
                       </Col>
-                      <Col md={5} className="con">
+                      <Col md={5} className="list">
                         <ul>
                           <li>Traveling</li>
                           <li>Sports</li>
