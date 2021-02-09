@@ -2,21 +2,15 @@
     margin-bottom: 75px;
 }
 
-.aboutJumbo {
+.whoJumbo {
     height: 67%;
-    background-color: #4682B4;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    transition: 0.3s;
 }
 
-#aboutHead {
-    font-size: 3.5rem;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-}
-
-.hrow {
-    width: 100%;
+.skillsJumbo {
+    height: 59.85%;
+    margin-top: 4.25rem;
+    position: relative;
+    left: 30px;
 }
 
 .who {
@@ -26,8 +20,6 @@ top: 22%;
 left: 9%;
 font-size: 45px;
 color: white;
-font-family: 'Courier New', Courier, monospace;
-font-weight: bold;
 }
 
 #headshot {
@@ -41,36 +33,41 @@ font-weight: bold;
     position: relative;
     bottom: 32%;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
 }
 
-.mystoryrow {
+.storyheading {
     position: relative;
     top: 6rem;
 }
-
-
-.textrow {
+.storyrow {
     padding: 0px 7rem;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
     position: relative;
     top: 7.5rem;
 }
 
-.statement {
+.storytext {
     line-height: 32px;
 }
 
-.skillsRow {
+.hobbiesRow {
     margin-top: -1.5rem;
 }
 
+.hobbiesCol {
+    position: relative;
+    top: 1rem;
+    left: 1.75rem;
+}
+
 .sectionHeading {
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 34px;
+}
+
+#edandskills {
+    color: white;
+    position: relative;
+    bottom: 2.5rem;
+    font-size: 45px;
 }
 
 ul {
@@ -78,7 +75,7 @@ ul {
     
 }
 
-li::before {
+.liItem::before {
     content: "\2022";
     color: blue;
     display: inline-block;
@@ -86,7 +83,7 @@ li::before {
     margin-left: -1rem;
 }
 
-li {
+.liItem {
     padding-top: 10px;
     text-align: left;
     font-size:x-large;
@@ -103,8 +100,30 @@ hr {
     justify-content: center;
 }
 
+.skillsRow {
+    margin-top: 0;
+}
+
+#skillslogo {
+    position: relative;
+    float: left;
+    bottom: 10%;
+}
+
+.edskillstext {
+    color: white;
+    position:relative;
+    bottom: 3%;
+}
+.cvRow {
+    margin-top: 5rem;
+}
+.skillsCol {
+    margin-top: 8rem;
+}
+
 @media (max-width: 480px) {
-    #aboutHead {
+    .pageHead {
         font-size: 2.5rem;
     }
     #headshot {
@@ -119,17 +138,17 @@ hr {
         font-size: 2rem;
         text-align: center;
     }
-    .aboutJumbo {
+    .jumbo {
         height: 100%;
     }
     .jumboText {
         bottom: -3rem;
     }
-    .mystoryrow {
+    .storyheading {
         top: -1rem;
     }
 
-    .textrow {
+    .storyrow {
         padding: 0px 0.5px;
         top: 0;
         line-height: 26px;
@@ -138,13 +157,49 @@ hr {
     .sectionHeading {
         font-size: 28px;
     }
-    .skillsRow {
-        margin-top: 0rem;
-    }
     .list {
         width: 100%;
         display: flex;
         justify-content: left;
         left: 20%;
+    }
+
+    .hobbiesCol {
+        left: 0;
+    }
+    .skillsJumbo {
+        height: 82.85%;
+        margin-top: 3.25rem;
+        position: relative;
+        left: 0;
+    }
+    #edandskills {
+        color: white;
+        position: relative;
+        bottom: 1.2rem;
+        font-size: 25px;
+    }
+    #skillslogo {
+        position: relative;
+        bottom: 6%;
+        float: none;
+        height: 200px;
+        width: 300px;
+    }
+    .cvRow {
+        margin-top: 0;
+    }
+    .skillsCol {
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 350px) {
+    #skillslogo {
+        position: relative;
+        bottom: 6%;
+        float: none;
+        height: 200px;
+        width: 250px;
     }
 }

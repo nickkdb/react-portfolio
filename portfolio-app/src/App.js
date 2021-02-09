@@ -5,8 +5,10 @@ import './App.css';
 import Homepage from './pages/homepage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/homepage.css';
-import About from './components/about';
-import Header from "./components/header";
+import './css/about.css';
+import './css/defaults.css';
+import About from './pages/about';
+import Header from "./components/homepage/header";
 import Projects from './components/projects';
 
 class App extends Component {

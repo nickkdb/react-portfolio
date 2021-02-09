@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Container, Row, Col, Nav, Navbar} from 'react-bootstrap';
-import logo from '../utils/images/logo.png';
+import logo from '../../utils/images/logo.png';
 
 class Header extends Component {
 constructor(props) {

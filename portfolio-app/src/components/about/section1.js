@@ -1,41 +1,35 @@
 import React, { Component } from 'react';
-import {Container, Row, Col, Jumbotron, Button} from 'react-bootstrap';
-import '../css/about.css';
-import headshot from '../utils/images/headshot2.png';
+import {Row, Col, Jumbotron} from 'react-bootstrap';
+import '../../css/about.css';
+import '../../css/defaults.css';
+import headshot from '../../utils/images/headshot2.png';
 
-class About extends Component {
-
+class Section1 extends Component {
     render() {
         return (
-          <Container className="aboutWrapper" fluid>
-              <Row>
-                <Col md={{span: 6, offset: 3}}>
-                <h1 id="aboutHead" ref={this.props.rf}>About Me</h1>
-                </Col>
-              </Row>
-
+            <>
                 <Row className= "jumboRow">
                   <Col md={1}/>
                   <Col style={{marginTop: "4rem"}} md={5}>
-                  <Jumbotron style={{borderRadius: "1.5rem"}} className="aboutJumbo">
-                    <h1 className= "who">Who am I?</h1>
+                  <Jumbotron style={{borderRadius: "1.5rem"}} className="jumbo whoJumbo">
+                    <h1 className= "who font">Who am I?</h1>
                     <img id= "headshot" src={headshot} alt="avatar" width={"250"} height={"250"} />
-                      <p className="jumboText">
+                      <p className="jumboText font">
                       Aspiring full stack web/software developer. The strategic-based nature of building a project fascinates me, and the feeling when your approach and design leads to a deliverable result is unbeatable.
                        </p>
                 </Jumbotron>
                   </Col>
                   <Col md={6} style={{marginTop: "4rem"}}>
-                  <Row className="mystoryrow">
+                  <Row className="storyheading">
                     <Col md={{span: 8, offset: 2}}>
-                    <h4 className="sectionHeading">
+                    <h4 className="sectionHeading font">
                       My Story
                     </h4>
                     <hr color={"blue"}/>
                     </Col>
                   </Row>
-                  <Row className="textrow">
-                  <p className="statement"> 
+                  <Row className="storyrow font">
+                  <p className="storytext"> 
                       Since a young age, I’ve loved using logic and creativity to solve problems. 
                       It started with fixing classmates’ mechanical pencils for a quarter in first grade and has led me all the way to programming. 
                       
@@ -49,10 +43,9 @@ class About extends Component {
                   </Row>
                   </Col>
                 </Row>
-                <Row className="skillsRow">
-                  <Col md={1} />
-                  <Col md={5} style={{position: "relative", top: "2rem"}}>
-                    <h4 className="sectionHeading">
+                <Row className="hobbiesRow">
+                  <Col md={5} className="hobbiesCol">
+                    <h4 className="sectionHeading font">
                       When I'm not coding, I enjoy 
                     </h4>
                     <hr color={"blue"}/>
@@ -60,27 +53,25 @@ class About extends Component {
                       <Col md={1} />
                       <Col md={5} className="list">
                       <ul>
-                      <li>Hiking</li>
-                      <li>Snowboarding</li>
-                      <li>Chess</li>
+                      <li className="liItem">Hiking</li>
+                      <li className="liItem">Snowboarding</li>
+                      <li className="liItem">Chess</li>
                     </ul>
                       </Col>
                       <Col md={5} className="list">
                         <ul>
-                          <li>Traveling</li>
-                          <li>Sports</li>
+                          <li className="liItem">Traveling</li>
+                          <li className="liItem">Sports</li>
                         </ul>
                       </Col>
                       <Col md={1} />
                     </Row>
                   </Col>
+                  <Col md={1} />
                 </Row>
-          </Container>
-                
+            </>
         )
     }
 }
 
-export default About;
-
-
+export default Section1;
