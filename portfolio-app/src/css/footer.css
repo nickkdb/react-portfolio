@@ -1,0 +1,43 @@
+.email {
+    position: relative;
+    top: 10px;
+    left: 15px
+}
+
+.git {
+    position: relative;
+    left: 20px
+}
+
+.linkedin {
+    position: relative;
+    left: 41px;
+}
+
+.designedby {
+    font-size: 20px;
+    color: rgb(176, 224, 230);
+}
+
+.myname {
+    font-size: 18px;
+    color: white;
+}
+
+.footerRow {
+    width: 100%;
+}
+
+.footerText {
+    text-align: center;
+    position: relative;
+    top: .8rem;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 8.5rem;
+}

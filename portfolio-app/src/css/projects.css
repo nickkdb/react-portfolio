@@ -37,3 +37,31 @@
   text-decoration: underline;
   font-size: 18px;
 }
+
+.gitlogo {
+  position: relative;
+  right: 3rem;
+  top: .5rem;
+}
+
+.viewMore {
+  text-align: left;
+  font-size: 45px;
+}
+
+.visitGit {
+  text-align: left;
+}
+
+.visitGitRow {
+  position: relative;
+  bottom: 2.5rem;
+}
+
+.projDescriptions {
+  margin-top: 5rem;
+}
+
+.carouselRow {
+  margin-top: 4.5rem;
+}

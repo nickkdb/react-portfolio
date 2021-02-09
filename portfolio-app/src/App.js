@@ -11,6 +11,7 @@ import About from './pages/about';
 import Header from "./components/homepage/header";
 import Projects from './pages/projects';
 import Contact from './pages/contact';
+import Footer from "./components/homepage/footer";
 
 class App extends Component {
 
@@ -45,6 +46,7 @@ class App extends Component {
       <Projects rf={this.projects}/>
       <Contact rf={this.contact}/>
       </Container>
+      <Footer />
 
       </div>
     );

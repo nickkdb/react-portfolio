@@ -23,12 +23,12 @@ class Projects extends Component {
                 </Col>
               </Row>
               
-                <Row style={{marginTop: "4.5rem"}}>
+                <Row className="carouselRow">
                   <Col md={1} />
                   <Col md={6}>
                     <Carousel />
                   </Col>
-                  <Col md={5} style={{marginTop: "5rem"}}>
+                  <Col md={5} className="projDescriptions">
                     <Desc 
                     heading="5wire"
                     link="https://group5-proj2.herokuapp.com/"
@@ -50,14 +50,14 @@ class Projects extends Component {
                   </Col>
                 </Row>
 
-                <Row style={{position: "relative", bottom: "2.5rem"}}>
+                <Row className="visitGitRow">
                   <Col md={1} />
                   <Col md={4}>
-                    <h2 className="font" style={{textAlign: "left", fontSize: "45px"}}>Looking to view more?</h2>
-                    <h6 className="font" style={{textAlign: "left"}}>Visit my github page to view source code for the projects above & more!</h6>
+                    <h2 className="font viewMore">Looking to view more?</h2>
+                    <h6 className="font visitGit">Visit my github page to view source code for the projects above & more!</h6>
                   </Col>
                   <Col md={1}>
-                  <a style={{position: "relative", right: "3rem", top: ".5rem"}} target="_blank" rel="noreferrer" href="https://github.com/nickkdb"><img src={github} alt="github" height={"75"} width={"125"}/></a>
+                  <a className="gitlogo" target="_blank" rel="noreferrer" href="https://github.com/nickkdb"><img src={github} alt="github" height={"75"} width={"125"}/></a>
                   </Col>
                 </Row>                                                              
             </Container>
