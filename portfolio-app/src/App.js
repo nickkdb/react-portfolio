@@ -9,7 +9,7 @@ import './css/about.css';
 import './css/defaults.css';
 import About from './pages/about';
 import Header from "./components/homepage/header";
-import Projects from './components/projects';
+import Projects from './pages/projects';
 
 class App extends Component {
 

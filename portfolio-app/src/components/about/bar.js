@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {HorizontalBar} from 'react-chartjs-2';
+import '../../css/defaults.css';
 
 const state = {
     labels: ['JavaScript ES6', 'node.js', 'Full MERN Stack', 'HTML5/CSS3', 'MySQL/Sequelize', 'Github + VSCode', 'Java', 'C++'],
@@ -11,7 +12,7 @@ const state = {
             borderWidth: 1,
             hoverBackgroundColor: 'rgba(70, 73, 250, 0.4)',
             hoverBorderColor: 'rgb(54, 40, 255)',
-            data: [90, 90, 85, 80, 75, 95, 70, 70]
+            data: [90, 90, 85, 80, 75, 100, 70, 70]
         },
     ],
 }
@@ -30,7 +31,7 @@ export default class Bar extends Component {
     render() {
         return (
             <>
-            <h2>Technical Skills</h2>
+            <h2 className= "font">Technical Skills</h2>
             <HorizontalBar options={options} data={state} />
             </>
         )

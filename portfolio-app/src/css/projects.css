@@ -1,0 +1,39 @@
+.slider {  
+    border-style: solid;
+    border-radius: .8rem;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.carousel-indicators li {
+    background-color: rgb(54, 40, 255);
+    background-color: rgba(70, 70, 70, 0.25);
+  }
+  
+  .carousel-indicators .active {
+    background-color: rgb(54, 40, 255);
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    background-image: none;
+  }
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 45px;
+  color: mediumblue;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 45px;
+  color: mediumblue;
+}
+
+.projfields {
+  font-weight:bolder;
+  text-decoration: underline;
+  font-size: 18px;
+}
