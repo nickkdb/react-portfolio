@@ -7,7 +7,7 @@ import Form from '../components/contacts/contactform';
 class Contact extends Component {
     render () {
         return (
-            <Container fluid>
+            <Container fluid className="contactContainer">
               <Row>
                 <Col md={{span: 6, offset: 3}}>
                 <h1 className= "pageHead"ref={this.props.rf}>Get in Touch</h1>

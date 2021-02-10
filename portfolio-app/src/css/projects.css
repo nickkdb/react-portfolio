@@ -1,7 +1,7 @@
 .slider {  
     border-style: solid;
     border-radius: .8rem;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    box-shadow: 0 19px 12px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 .carousel-indicators li {
     background-color: rgb(54, 40, 255);
@@ -39,9 +39,9 @@
 }
 
 .gitlogo {
-  position: relative;
+  /* position: relative;
   right: 3rem;
-  top: .5rem;
+  top: .5rem; */
 }
 
 .viewMore {
@@ -55,13 +55,19 @@
 
 .visitGitRow {
   position: relative;
-  bottom: 2.5rem;
+  top: 3rem;
 }
 
 .projDescriptions {
-  margin-top: 5rem;
+  margin-top: 2.5rem;
 }
 
 .carouselRow {
   margin-top: 4.5rem;
+}
+
+@media (max-width: 480px) {
+  .projDescriptions {
+    margin-top: 6rem;
+  }
 }

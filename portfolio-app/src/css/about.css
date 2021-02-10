@@ -3,35 +3,40 @@
 }
 
 .whoJumbo {
-    height: 67%;
+    /* height: 67%; */
+    padding: 10px 5px 0px 10px
+    
 }
 
 .skillsJumbo {
-    height: 66.25%;
+    /* height: 66.25%; */
     margin-top: 4.25rem;
     position: relative;
     left: 30px;
+    padding: 10px 5px 0px 10px;
 }
 
 .who {
-text-align: left;
-position: relative;
+text-align: center;
+/* position: relative;
 top: 16%;
-left: 5%;
+left: 5%; */
 font-size: 55px;
 color: white;
+margin-left: 3rem;
+margin-top: 4rem;
 }
 
 #headshot {
     border-radius: 50%;
-    position: relative;
+    /* position: relative;
     left: 25%;
-    bottom: 7.25rem;
+    bottom: 7.25rem; */
 }
 
 .jumboText {
-    position: relative;
-    bottom: 38%;
+    /* position: relative;
+    bottom: 38%; */
     color: white;
     font-size: 20px;
 }
@@ -51,7 +56,7 @@ color: white;
 }
 
 .hobbiesRow {
-    margin-top: -1.5rem;
+    margin-top: 6.5rem;
 }
 
 .hobbiesCol {
@@ -66,9 +71,10 @@ color: white;
 
 #edandskills {
     color: white;
-    position: relative;
-    bottom: 2.5rem;
-    font-size: 45px;
+    /* position: relative;
+    bottom: 2.5rem; */
+    font-size: 40px;
+    text-align: center;
 }
 
 ul {
@@ -107,14 +113,14 @@ hr {
 
 #skillslogo {
     position: relative;
-    float: left;
-    bottom: 10%;
+    /* float: left; */
+    /* bottom: 10%; */
 }
 
 .edskillstext {
     color: white;
-    position:relative;
-    bottom: 13%;
+    /* position:relative;
+    bottom: 13%; */
     font-size: 20px;
 }
 .cvRow {
@@ -170,7 +176,7 @@ hr {
         left: 0;
     }
     .skillsJumbo {
-        height: 82.85%;
+        height: 88.85%;
         margin-top: 3.25rem;
         position: relative;
         left: 0;
@@ -178,8 +184,8 @@ hr {
     #edandskills {
         color: white;
         position: relative;
-        bottom: 1.2rem;
-        font-size: 25px;
+        top: 15px;
+        font-size: 26px;
     }
     #skillslogo {
         position: relative;

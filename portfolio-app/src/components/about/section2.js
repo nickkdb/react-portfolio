@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col, Jumbotron, Button} from 'react-bootstrap';
 import Bar from './bar';
 import '../../css/about.css';
-import '../../css/defaults.css';
+// import '../../css/defaults.css';
 import logo from '../../utils/images/skillslogo.png';
 import CV from '../../utils/CV/NicolasBorgesCV.pdf';
 
@@ -14,13 +14,25 @@ class Section2 extends Component {
                   <Col md={6} className="skillsCol">
                       <Bar />
                   </Col>
-                  <Col md={{span: 5, offset: 3.5}}>
+                  <Col md={{span: 5}}>
                   <Jumbotron style={{borderRadius: "1.5rem"}} className="jumbo skillsJumbo">
-                    <h1 id= "edandskills" className="font">Education & Skills</h1>
-                    <img id="skillslogo" src={logo} alt="logo" height={"250"} width={"350"}/>
+                  <Row>
+                      <Col md={1} />
+                      <Col style={{alignSelf: "center"}} md={5}>
+                      <h1 id= "edandskills" className="font">Education & Skills</h1>
+                      </Col>
+                      <Col style={{paddingTop: "25px"}} md={5}>
+                      <img id="skillslogo" src={logo} alt="logo" height={"250"} width={"300"}/>
+                      </Col>
+                      <Col md={1} />
+                    </Row>
+                    <Row>
+                      <Col md={12}>
                       <p className=" edskillstext font">
                       I attend Rutgers University for undergraduate, where I was exposed to programming by fellow students, along with CS courses. I went on to pursue programming after by attending Rutgers Universties' Coding Bootcamp, completing other online courses, and spending countless hours learning the art.
                        </p>
+                      </Col>
+                    </Row>
                 </Jumbotron>
                   </Col>
                   <Col md={1} />

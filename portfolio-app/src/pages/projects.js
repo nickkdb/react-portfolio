@@ -27,6 +27,15 @@ class Projects extends Component {
                   <Col md={1} />
                   <Col md={6}>
                     <Carousel />
+                    <Row className="visitGitRow">
+                  <Col md={8}>
+                    <h2 className="font viewMore">Looking to view more?</h2>
+                    <h6 className="font visitGit">Visit my github page to view source code for the projects above & more!</h6>
+                  </Col>
+                  <Col md={4} style={{margin: "auto 0", paddingLeft: "0"}}>
+                  <a className="gitlogo" target="_blank" rel="noreferrer" href="https://github.com/nickkdb"><img src={github} alt="github" height={"75"} width={"125"}/></a>
+                  </Col>
+                </Row>                                                              
                   </Col>
                   <Col md={5} className="projDescriptions">
                     <Desc 
@@ -49,17 +58,6 @@ class Projects extends Component {
                     />                                       
                   </Col>
                 </Row>
-
-                <Row className="visitGitRow">
-                  <Col md={1} />
-                  <Col md={4}>
-                    <h2 className="font viewMore">Looking to view more?</h2>
-                    <h6 className="font visitGit">Visit my github page to view source code for the projects above & more!</h6>
-                  </Col>
-                  <Col md={1}>
-                  <a className="gitlogo" target="_blank" rel="noreferrer" href="https://github.com/nickkdb"><img src={github} alt="github" height={"75"} width={"125"}/></a>
-                  </Col>
-                </Row>                                                              
             </Container>
         )
     }

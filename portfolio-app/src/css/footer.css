@@ -41,3 +41,16 @@
     padding: 0;
     height: 8.5rem;
 }
+
+@media (max-width: 480px) {
+    .footerRow {
+        display: flex;
+        align-items: center;
+    }
+    .designedby, .myname {
+        font-size: 15px;
+    }
+    .icons {
+        margin: 0 auto;
+    }
+}

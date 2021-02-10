@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Col, Form, Button} from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
+import '../../css/defaults.css';
+
 
 const ContactForm = () => {
     const { register, errors, handleSubmit, reset } = useForm();

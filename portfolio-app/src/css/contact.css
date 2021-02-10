@@ -12,3 +12,16 @@ margin: 0;
     text-align: left;
     margin-top: 2rem;
 }
+
+.contactContainer {
+    margin-top: 10rem;
+}
+
+@media (max-width: 480px) {
+    .contactContainer {
+        margin-top: 5rem;
+    }
+    .contactText {
+        margin-bottom: 2.5rem;
+    }
+}

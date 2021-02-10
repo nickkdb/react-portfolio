@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Jumbotron, Container, Row, Col} from 'react-bootstrap';
 import '../css/homepage.css';
+import '../css/media.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 

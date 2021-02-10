@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Navbar, Container, Row, Col} from 'react-bootstrap';
 import '../../css/footer.css';
+import '../../css/defaults.css';
 import linkedIn from '../../utils/images/linkedInlogo.png';
 import github from '../../utils/images/githublogowhite.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -23,7 +24,7 @@ class Footer extends Component {
                 </Navbar.Text>
                     </Col>
                     <Col md={7} />
-                    <Col md={2}>
+                    <Col className="icons" md={2}>
                     <a href={linkedInUrl} target="_blank" rel="noreferrer" >
                     <img  className="linkedin" src={linkedIn} height={"60px"} width={"100px"} alt="linkedIn" />
                     </a>
