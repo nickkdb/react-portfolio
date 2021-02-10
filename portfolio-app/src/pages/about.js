@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 // import '../css/defaults.css';
-import '../css/media.css';
 import Section1 from '../components/about/section1';
 import Section2 from '../components/about/section2';
 
