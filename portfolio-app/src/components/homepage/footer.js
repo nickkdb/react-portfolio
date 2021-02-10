@@ -23,8 +23,8 @@ class Footer extends Component {
                 <span className="designedby">Design and Development by: </span><span className="myname">Nicolas Borges</span>
                 </Navbar.Text>
                     </Col>
-                    <Col md={7} />
-                    <Col className="icons" md={2}>
+                    <Col md={5} />
+                    <Col className="icons d-flex justify-content-center" md={4}>
                     <a href={linkedInUrl} target="_blank" rel="noreferrer" >
                     <img  className="linkedin" src={linkedIn} height={"60px"} width={"100px"} alt="linkedIn" />
                     </a>
