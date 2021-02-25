@@ -4,7 +4,7 @@ import '../../css/defaults.css';
 import '../../css/projects.css';
 import flightSaver from '../../utils/images/screenshot.png';
 import fiveWire from '../../utils/images/5wire.png';
-import directory from '../../utils/images/directory.png';
+import booksearch from '../../utils/images/booksearch.png';
 
 class projectCarousel extends Component {
     render() {
@@ -21,7 +21,7 @@ class projectCarousel extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={directory}
+      src={booksearch}
       alt="Third slide"
     />
   </Carousel.Item>

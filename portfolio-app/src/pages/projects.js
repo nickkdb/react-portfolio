@@ -11,8 +11,8 @@ class Projects extends Component {
     render() {
       const fiveWireDesc= "5wire is a web-based music app built through spotify. Users can create and save playlists to their account, and listen to music within their browser";
       const fiveWireTools= "HTML5/CSS3, JS ES6 (node.js/expres.js), mySQL, MVC, Spotify API";
-      const employeeDesc= "React app that manages and filters a database of employees";
-      const employeeTools= "HTML5/CSS3, JS ES6 (node.js/react.js), Bootstrap";
+      const booksDesc= "MERN app that allows users to find and save books by utilizing Google's Book API";
+      const booksTools= "MongoDB, JS ES6 (React/Node/Express), CSS + Bootstrap, Google Books API";
       const flightDesc= "This app gives users the ability to plan and save a trip with flight and weather data based on input from the user";
       const flightTools= "HTML5/CSS3, Materialize, Js & jQuery, APIs";
         return (
@@ -45,10 +45,10 @@ class Projects extends Component {
                     tools={fiveWireTools}
                     />   
                     <Desc 
-                    heading="Employee Directory"
-                    link="https://nickkdb.github.io/EmployeeDirectory/"
-                    desc={employeeDesc}
-                    tools={employeeTools}
+                    heading="Google Book Search"
+                    link="https://book-search-nborges.herokuapp.com/"
+                    desc={booksDesc}
+                    tools={booksTools}
                     />   
                     <Desc 
                     heading="Flight Saver"
