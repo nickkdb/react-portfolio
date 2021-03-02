@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.4d49fa44.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.b25a797a.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.b25a797a.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.35015097.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.35015097.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.6052b4c6.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.6052b4c6.js.map",
     "static/css/2.150d169a.chunk.css": "/react-portfolio/static/css/2.150d169a.chunk.css",
@@ -15,7 +15,7 @@
     "static/css/main.4d49fa44.chunk.css.map": "/react-portfolio/static/css/main.4d49fa44.chunk.css.map",
     "static/js/2.78da5828.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.78da5828.chunk.js.LICENSE.txt",
     "static/media/5wire.ae61a1b0.png": "/react-portfolio/static/media/5wire.ae61a1b0.png",
-    "static/media/NicolasBorgesCV.331a76e9.pdf": "/react-portfolio/static/media/NicolasBorgesCV.331a76e9.pdf",
+    "static/media/NicolasBorgesCV.0f54a5ab.pdf": "/react-portfolio/static/media/NicolasBorgesCV.0f54a5ab.pdf",
     "static/media/booksearch.8e2e367e.png": "/react-portfolio/static/media/booksearch.8e2e367e.png",
     "static/media/headshot2.cda608e4.png": "/react-portfolio/static/media/headshot2.cda608e4.png",
     "static/media/linkedInlogo.b4a2f79d.png": "/react-portfolio/static/media/linkedInlogo.b4a2f79d.png",
@@ -30,6 +30,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.78da5828.chunk.js",
     "static/css/main.4d49fa44.chunk.css",
-    "static/js/main.b25a797a.chunk.js"
+    "static/js/main.35015097.chunk.js"
   ]
 }
