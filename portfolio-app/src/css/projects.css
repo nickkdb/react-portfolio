@@ -71,3 +71,12 @@
     margin-top: 6rem;
   }
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .viewMore {
+    font-size: 30px;
+  }
+  .visitGitRow {
+    margin-bottom: 4.5rem;
+  }
+}

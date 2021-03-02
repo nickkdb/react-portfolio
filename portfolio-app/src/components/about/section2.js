@@ -11,10 +11,10 @@ class Section2 extends Component {
         return (
             <>
             <Row className= "skillsRow">
-                  <Col md={6} className="skillsCol">
+                  <Col sm lg={6} md={12} className="skillsCol">
                       <Bar />
                   </Col>
-                  <Col md={{span: 5}}>
+                  <Col sm lg={5} md={12}>
                   <Jumbotron style={{borderRadius: "1.5rem"}} className="jumbo skillsJumbo">
                   <Row>
                       <Col md={1} />
