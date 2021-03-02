@@ -12,7 +12,7 @@ const state = {
             borderWidth: 1,
             hoverBackgroundColor: 'rgba(70, 73, 250, 0.4)',
             hoverBorderColor: 'rgb(54, 40, 255)',
-            data: [90, 90, 85, 80, 75, 100, 70, 70]
+            data: [90, 90, 85, 80, 75, 100, 60, 50]
         },
     ],
 }
