@@ -25,3 +25,15 @@ margin: 0;
         margin-bottom: 2.5rem;
     }
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .contactText {
+        margin-bottom: 45px;
+    }
+    .contactContainer {
+        margin-top: 7.5rem;
+    }
+    .filler {
+        display: none;
+    }
+}

@@ -4,12 +4,12 @@
 
 .whoJumbo {
     /* height: 67%; */
-    padding: 10px 5px 0px 10px
-    
+    padding: 10px 5px 0px 10px;
+    height: fit-content;
 }
 
 .skillsJumbo {
-    /* height: 66.25%; */
+    height: fit-content;
     margin-top: 4.25rem;
     position: relative;
     left: 30px;
@@ -89,6 +89,9 @@ ul {
     width: 2.5rem;
     margin-left: -1rem;
 }
+.whoCol {
+    margin-left: 0;
+}
 
 .liItem {
     padding-top: 10px;
@@ -99,12 +102,6 @@ ul {
 
 hr {
     height: 1px;
-}
-
-.list {
-    width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 .skillsRow {
@@ -138,12 +135,14 @@ hr {
         height: 12.5rem;
         width: 12.5rem;
         top: 1rem;
-        left: 0;
+         left: 0;
     }
     .who {
         top: 0;
         left: 0;
         font-size: 2rem;
+        /* margin-left: 0;
+        margin-top: 15px; */
         text-align: center;
     }
     .jumbo {
@@ -154,6 +153,9 @@ hr {
     }
     .storyheading {
         top: -1rem;
+    }
+    .storyCol {
+        margin-top: 4rem;
     }
 
     .storyrow {
@@ -167,9 +169,8 @@ hr {
     }
     .list {
         width: 100%;
-        display: flex;
-        justify-content: left;
-        left: 20%;
+        position: relative;
+        left: 40px;
     }
 
     .hobbiesCol {
@@ -209,5 +210,27 @@ hr {
         float: none;
         height: 200px;
         width: 250px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .hobbiesCol {
+        margin-top: 4rem;
+        left: 0;
+    }
+    .storyrow {
+        padding: 0px;
+    }
+    .skillsCol {
+        margin-top: 6rem;
+    }
+    li {
+        display: inline-block
+    }
+    .filler {
+        display: none;
+    }
+    .skillsJumbo {
+        left: 0;
     }
 }
