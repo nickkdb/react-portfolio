@@ -10,10 +10,10 @@ class Section1 extends Component {
             <>
                 <Row className= "jumboRow">
                   <Col md={1}/>
-                  <Col style={{marginTop: "4rem"}} sm={5} lg={5} md={12}>
+                  <Col style={{marginTop: "4rem"}} sm={12} lg={5} md={12}>
                   <Jumbotron style={{borderRadius: "1.5rem"}} className="jumbo whoJumbo">
                     <Row>
-                      <Col className="whoCol" style={{alignSelf: "center"}} lg={6} md={6} sm={{span: 6, offset: 3}}>
+                      <Col className="whoCol" style={{alignSelf: "center"}} lg={6} md={{span: 6, offset: 3}}>
                       <h1 className= "who font">Who am I?</h1>
                       </Col>
                       <Col style={{paddingTop: "25px"}} md={6}>
@@ -29,7 +29,7 @@ class Section1 extends Component {
                     </Row>
                 </Jumbotron>
                   </Col>
-                  <Col md={12} lg={6} sm={6} className="storyCol">
+                  <Col md={12} lg={6} sm={12} className="storyCol">
                   <Row className="storyheading">
                     <Col lg={{span: 8, offset: 2}} md={12}>
                     <h4 className="sectionHeading font">
@@ -54,14 +54,14 @@ class Section1 extends Component {
                   </Col>
                 </Row>
                 <Row className="hobbiesRow">
-                  <Col md={12} lg={5} sm={5} className="hobbiesCol">
+                  <Col md={12} lg={5} sm={12} className="hobbiesCol">
                     <h4 className="sectionHeading font">
                       When I'm not coding, I enjoy 
                     </h4>
                     <hr color={"blue"}/>
                     <Row>
                       <Col md={1} className="filler" />
-                      <Col sm lg={5} md={6} className="list">
+                      <Col lg={5} sm md={6} className="list">
                       <ul>
                       <li className="liItem">Hiking</li>
                       <li className="liItem">Snowboarding</li>

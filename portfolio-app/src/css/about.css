@@ -224,13 +224,13 @@ hr {
     .skillsCol {
         margin-top: 6rem;
     }
-    li {
-        display: inline-block
-    }
-    .filler {
-        display: none;
-    }
     .skillsJumbo {
         left: 0;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 996px) {
+    .filler {
+        display: none;
     }
 }
