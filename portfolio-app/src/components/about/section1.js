@@ -59,7 +59,7 @@ class Section1 extends Component {
                       When I'm not coding, I enjoy 
                     </h4>
                     <hr color={"blue"}/>
-                    <Row>
+                    <Row id="innerHobbyRow">
                       <Col md={1} className="filler" />
                       <Col lg={5} sm md={6} className="list">
                       <ul>

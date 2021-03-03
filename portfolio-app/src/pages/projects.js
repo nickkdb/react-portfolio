@@ -25,14 +25,14 @@ class Projects extends Component {
               
                 <Row className="carouselRow">
                   <Col md={1} />
-                  <Col sm lg={6} md={12}>
+                  <Col lg={6} sm={12} md={12}>
                     <Carousel />
                     <Row className="visitGitRow">
-                  <Col md={8}>
+                  <Col sm={8} md={8}>
                     <h2 className="font viewMore">Looking to view more?</h2>
                     <h6 className="font visitGit">Visit my github page to view source code for the projects above & more!</h6>
                   </Col>
-                  <Col md={4} style={{margin: "auto 0", paddingLeft: "0"}}>
+                  <Col md={4} sm={3} style={{margin: "auto 0", paddingLeft: "0"}}>
                   <a className="gitlogo" target="_blank" rel="noreferrer" href="https://github.com/nickkdb"><img src={github} alt="github" height={"75"} width={"125"}/></a>
                   </Col>
                 </Row>                                                              

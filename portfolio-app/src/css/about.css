@@ -214,23 +214,26 @@ hr {
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-    .hobbiesCol {
-        margin-top: 4rem;
-        left: 0;
-    }
     .storyrow {
         padding: 0px;
     }
     .skillsCol {
         margin-top: 6rem;
     }
-    .skillsJumbo {
-        left: 0;
-    }
 }
 
 @media (min-width: 481px) and (max-width: 996px) {
     .filler {
         display: none;
+    }
+    .skillsJumbo {
+        left: 0;
+    }
+    .hobbiesCol {
+        margin-top: 4rem;
+        left: 0;
+    }
+    #innerHobbyRow {
+        margin-left: 0 !important;
     }
 }
