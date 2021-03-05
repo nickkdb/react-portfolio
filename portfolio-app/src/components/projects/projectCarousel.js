@@ -3,7 +3,7 @@ import {Carousel} from 'react-bootstrap';
 import '../../css/defaults.css';
 import '../../css/projects.css';
 import flightSaver from '../../utils/images/screenshot.png';
-import fiveWire from '../../utils/images/5wire.png';
+import nerdHerrd from '../../utils/images/nerdherrd.png';
 import booksearch from '../../utils/images/booksearch.png';
 
 class projectCarousel extends Component {
@@ -14,7 +14,7 @@ class projectCarousel extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={fiveWire}
+      src={nerdHerrd}
       alt="First slide"
     />
   </Carousel.Item>
