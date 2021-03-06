@@ -18,13 +18,13 @@ class Projects extends Component {
         return (
             <Container fluid>
               <Row>
-                <Col sm lg={{span: 6, offset: 3}}>
+                <Col sm lg={12} xl={{span: 6, offset: 3}}>
                 <h1 className= "pageHead"ref={this.props.rf}>Some of my favorite Projects</h1>
                 </Col>
               </Row>
               
                 <Row className="carouselRow">
-                  <Col md={1} />
+                  {/* <Col md={1} /> */}
                   <Col lg={6} sm={12} md={12}>
                     <Carousel />
                     <Row className="visitGitRow">
@@ -37,7 +37,7 @@ class Projects extends Component {
                   </Col>
                 </Row>                                                              
                   </Col>
-                  <Col sm lg={5} className="projDescriptions">
+                  <Col sm lg={6} xl={5} className="projDescriptions">
                     <Desc 
                     heading="Nerd Herrd"
                     link="https://nerdherd-group5.herokuapp.com/"

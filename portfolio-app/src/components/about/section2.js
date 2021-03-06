@@ -14,14 +14,14 @@ class Section2 extends Component {
                   <Col sm lg={6} md={12} className="skillsCol">
                       <Bar />
                   </Col>
-                  <Col sm lg={5} md={12}>
+                  <Col sm xl={5} lg={6} md={12}>
                   <Jumbotron style={{borderRadius: "1.5rem"}} className="jumbo skillsJumbo">
                   <Row>
                       <Col md={1} />
-                      <Col style={{alignSelf: "center"}} md={5}>
+                      <Col style={{alignSelf: "center"}} xl={5} lg={12} md={5}>
                       <h1 id= "edandskills" className="font">Education & Skills</h1>
                       </Col>
-                      <Col style={{paddingTop: "25px"}} md={5}>
+                      <Col style={{paddingTop: "25px"}} md={5} xl={5} lg={12}>
                       <img id="skillslogo" src={logo} alt="logo" height={"250"} width={"300"}/>
                       </Col>
                       <Col md={1} />
