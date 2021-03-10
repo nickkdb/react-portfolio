@@ -3,7 +3,7 @@ import {HorizontalBar} from 'react-chartjs-2';
 import '../../css/defaults.css';
 
 const state = {
-    labels: ['JavaScript ES6', 'node.js', 'Full MERN Stack', 'HTML5/CSS3', 'MySQL/Sequelize', 'Github + VSCode', 'Java', 'C++'],
+    labels: ['JavaScript ES6', 'node.js', 'Full MERN Stack', 'HTML5/CSS3', 'MySQL/Sequelize', 'Github + VSCode', 'Java', 'Python'],
     datasets: [
         {
             label: "Languages/Tools",
