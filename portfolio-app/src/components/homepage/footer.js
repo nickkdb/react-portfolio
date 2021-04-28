@@ -18,12 +18,12 @@ class Footer extends Component {
             <Navbar className="footer" expand="lg" variant="dark">
                 <Container fluid>
                 <Row className="footerRow">  
-                    <Col sm lg={3} md={6} className="footerText">
+                    <Col sm lg={4} md={6} className="footerText">
                 <Navbar.Text>
-                <span className="designedby">Design and Development by: </span><span className="myname">Nicolas Borges</span>
+                <span className="designedby">Design and Development by: </span><span className="myname">nborges.dev@gmail.com</span>
                 </Navbar.Text>
                     </Col>
-                    <Col md={5} className="filler"/>
+                    <Col md={4} className="filler"/>
                     <Col className="icons d-flex justify-content-center flex-row" sm lg={4} md={6}>
                     <a href={linkedInUrl} target="_blank" rel="noreferrer" >
                     <img  className="linkedin" src={linkedIn} height={"60px"} width={"100px"} alt="linkedIn" />
