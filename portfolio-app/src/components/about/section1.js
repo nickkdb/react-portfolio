@@ -3,6 +3,7 @@ import {Row, Col, Jumbotron} from 'react-bootstrap';
 import '../../css/about.css';
 // import '../../css/defaults.css';
 import headshot from '../../utils/images/headshot2.png';
+import logo from '../../utils/images/skillslogo.png';
 
 class Section1 extends Component {
     render() {
@@ -54,7 +55,7 @@ class Section1 extends Component {
                   </Col>
                 </Row>
                 <Row className="hobbiesRow">
-                  <Col md={12} xl={5} sm={12} className="hobbiesCol">
+                  <Col md={12} lg={5} sm={12} className="hobbiesCol">
                     <h4 className="sectionHeading font">
                       When I'm not coding, I enjoy 
                     </h4>
@@ -64,8 +65,8 @@ class Section1 extends Component {
                       <Col lg={5} sm md={6} className="list">
                       <ul>
                       <li className="liItem">Hiking</li>
-                      <li className="liItem">Snowboarding</li>
                       <li className="liItem">Chess</li>
+                      <li className="liItem">Snowboarding</li>
                     </ul>
                       </Col>
                       <Col sm lg={5} md={6} className="list">
@@ -78,6 +79,27 @@ class Section1 extends Component {
                     </Row>
                   </Col>
                   <Col md={1} />
+                  <Col md={12} lg={6} sm={12}>
+                  <Jumbotron style={{borderRadius: "1.5rem"}} className="jumbo skillsJumbo">
+                  <Row>
+                      <Col md={1} />
+                      <Col style={{alignSelf: "center"}} xl={5} lg={12} md={5}>
+                      <h1 id= "edandskills" className="font">Education & Skills</h1>
+                      </Col>
+                      <Col style={{paddingTop: "25px"}} md={5} xl={5} lg={12}>
+                      <img id="skillslogo" src={logo} alt="logo" height={"250"} width={"300"}/>
+                      </Col>
+                      <Col md={1} />
+                    </Row>
+                    <Row>
+                      <Col md={12}>
+                      <p className=" edskillstext font">
+                      I attend Rutgers University for undergraduate, where I was exposed to programming by fellow students, along with CS courses. I went on to pursue programming after by attending Rutgers Universties' Coding Bootcamp, completing other online courses, and spending countless hours learning the art.
+                       </p>
+                      </Col>
+                    </Row>
+                </Jumbotron>
+                  </Col>
                 </Row>
             </>
         )

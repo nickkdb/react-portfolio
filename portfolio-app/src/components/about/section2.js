@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col, Jumbotron, Button} from 'react-bootstrap';
-import Bar from './bar';
+// import Bar from './bar';
 import '../../css/about.css';
 // import '../../css/defaults.css';
 import logo from '../../utils/images/skillslogo.png';
@@ -10,7 +10,7 @@ class Section2 extends Component {
     render() {
         return (
             <>
-            <Row className= "skillsRow">
+            {/* <Row className= "skillsRow">
                   <Col sm lg={6} md={12} className="skillsCol">
                       <Bar />
                   </Col>
@@ -36,7 +36,7 @@ class Section2 extends Component {
                 </Jumbotron>
                   </Col>
                   <Col md={1} />
-            </Row>
+            </Row> */}
             <Row className="cvRow">
                 <Col md={{span: 6, offset: 3}}>
                 <Button href={CV} variant="outline-primary" target="_blank" size="lg">Download my CV</Button>

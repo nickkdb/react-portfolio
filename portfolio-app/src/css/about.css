@@ -10,7 +10,7 @@
 
 .skillsJumbo {
     height: fit-content;
-    margin-top: 4.25rem;
+    /* margin-top: 4.25rem; */
     position: relative;
     /* left: 30px; */
     padding: 10px 5px 0px 10px;
@@ -94,6 +94,7 @@ ul {
 }
 
 .liItem {
+    width: max-content;
     padding-top: 10px;
     text-align: left;
     font-size:x-large;
@@ -228,6 +229,7 @@ hr {
     }
     .skillsJumbo {
         left: 0;
+        margin-top: 4rem;
     }
     .hobbiesCol {
         margin-top: 4rem;
