@@ -4,7 +4,7 @@ import { Row, Col, Jumbotron, Button} from 'react-bootstrap';
 import '../../css/about.css';
 // import '../../css/defaults.css';
 import logo from '../../utils/images/skillslogo.png';
-import CV from '../../utils/CV/NicolasBorgesCV.pdf';
+import CV from '../../utils/Resume/nicolasBorgesResume.pdf';
 
 class Section2 extends Component {
     render() {
@@ -39,7 +39,7 @@ class Section2 extends Component {
             </Row> */}
             <Row className="cvRow">
                 <Col md={{span: 6, offset: 3}}>
-                <Button href={CV} variant="outline-primary" target="_blank" size="lg">Download my CV</Button>
+                <Button href={CV} variant="outline-primary" target="_blank" size="lg">Download my Resume</Button>
                 </Col>
             </Row>
             </>

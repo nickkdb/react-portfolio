@@ -9,12 +9,12 @@ import github from '../utils/images/githublogo.png';
 class Projects extends Component {
 
     render() {
-      const nerdHerrdDesc= "5wire is a web-based music app built through spotify. Users can create and save playlists to their account, and listen to music within their browser";
-      const nerdHerrdTools= "JSES6 (React/Node/Express/Socket.io), Firebase, MongoDB, APIs";
-      const booksDesc= "MERN app that allows users to find and save books by utilizing Google's Book API";
-      const booksTools= "MongoDB, JS ES6 (React/Node/Express), CSS + Bootstrap, Google Books API";
-      const flightDesc= "This app gives users the ability to plan and save a trip with flight and weather data based on input from the user";
-      const flightTools= "HTML5/CSS3, Materialize, Js & jQuery, APIs";
+      const nerdHerrdDesc= "NerdHerrd is a MERN Stack site that serves as a community for trading card fans. Users can add cards to their profile, find others to trade with, and negogiate trades via the chatroom feature.";
+      const nerdHerrdTools= "JS ES6 (React/Node/Express/Socket.io), Firebase, MongoDB, APIs";
+      const sortDesc= "React App that visualizes popular sorting algorithms ti analyze the difference in method of sorting, as well as speed.";
+      const sortTools= "JS ES6, React, Node, HTML/CSS, Bootstrap";
+      const snakeDesc= "My take on a classic game. Try to eat as many targets as possible without leaving the grid, or eating yourself!";
+      const snakeTools= "JS ES6, Node, MongoDB, HTML/CSS, webSockets";
         return (
             <Container fluid>
               <Row>
@@ -45,16 +45,16 @@ class Projects extends Component {
                     tools={nerdHerrdTools}
                     />   
                     <Desc 
-                    heading="Google Book Search"
-                    link="https://book-search-nborges.herokuapp.com/"
-                    desc={booksDesc}
-                    tools={booksTools}
+                    heading="Sorting Algorithm Visualizer"
+                    link="https://nickkdb.github.io/Sorting-Visualizer/"
+                    desc={sortDesc}
+                    tools={sortTools}
                     />   
                     <Desc 
-                    heading="Flight Saver"
-                    link="https://nickkdb.github.io/FlightSaver/"
-                    desc={flightDesc}
-                    tools={flightTools}
+                    heading="Snake, The Game!"
+                    link="https://playsnakejs.herokuapp.com/"
+                    desc={snakeDesc}
+                    tools={snakeTools}
                     />                                       
                   </Col>
                 </Row>

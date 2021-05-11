@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import {Carousel} from 'react-bootstrap';
 import '../../css/defaults.css';
 import '../../css/projects.css';
-import flightSaver from '../../utils/images/screenshot.png';
+import snakeJS from '../../utils/images/screenshot.png';
 import nerdHerrd from '../../utils/images/nerdherrd.png';
-import booksearch from '../../utils/images/booksearch.png';
+import sortVisualizer from '../../utils/images/sort.png';
 
 class projectCarousel extends Component {
     render() {
@@ -21,14 +21,14 @@ class projectCarousel extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={booksearch}
+      src={sortVisualizer}
       alt="Third slide"
     />
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={flightSaver}
+      src={snakeJS}
       alt="Third slide"
     />
   </Carousel.Item>

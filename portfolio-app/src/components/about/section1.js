@@ -24,7 +24,7 @@ class Section1 extends Component {
                     <Row style={{marginTop: "20px"}}>
                       <Col md={12}>
                       <p className="jumboText font">
-                      Aspiring full stack web/software developer. The strategic-based nature of building a project fascinates me, and the feeling when your approach and design leads to a deliverable result is unbeatable.
+                      Aspiring full stack web/software developer. The strategic nature of building a project fascinates me, and the feeling when your approach and design leads to a deliverable result is unbeatable.
                        </p>
                       </Col>
                     </Row>
@@ -45,7 +45,7 @@ class Section1 extends Component {
                       It started with fixing classmates’ mechanical pencils for a quarter in first grade and has led me all the way to programming. 
                       
                       <br/><br/>
-                      Outside of coding, I'm an easy-going guy who loves learning new things and meeting new people.
+                      Outside of coding, I'm an easy-going person who loves learning new things and meeting new people.
                       A motto I live by is, "The more you know, the more you'll understand others".
                       Hearing new stories and understanding different perspectives
                       is a challenge I'm happy to face. I believe being open-minded, creative, and considering
@@ -94,7 +94,10 @@ class Section1 extends Component {
                     <Row>
                       <Col md={12}>
                       <p className=" edskillstext font">
-                      I attend Rutgers University for undergraduate, where I was exposed to programming by fellow students, along with CS courses. I went on to pursue programming after by attending Rutgers Universties' Coding Bootcamp, completing other online courses, and spending countless hours learning the art.
+                      I was first exposed to programming by a friend who's a software engineer. I went on to pursue programming by attending Rutgers Universties' Coding Bootcamp, along with pursuing a B.S. in Computer Science from Rutgers University.
+                       </p>
+                       <p className="font" style={{color: "white"}}>
+                      Skills: JavaScript, HTML/CSS, Java, Node, React, & More!
                        </p>
                       </Col>
                     </Row>
